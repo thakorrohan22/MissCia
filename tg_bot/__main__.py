@@ -17,26 +17,21 @@ from tg_bot.modules.helper_funcs.chat_status import is_user_admin
 from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 PM_START_TEXT = """
-Hi {}, my name is {}! 
+Hi {}, my name is CIA! 
 I am an Anime themed group management bot.
 
-You can find the list of available commands with /help.
+You can find the list of available commands with /help. 
 
-[Kigyō's Repo](https://github.com/Dank-del/EnterpriseAL) 
-
-The support group chat is at @YorktownEagleUnion
 """
 
 HELP_STRINGS = """
 Hey there! My name is *{}*.
-I'm a part of Eagle Union.
 
 Have a look at the following for an idea of some of \
 the things I can help you with.
 
-I'm managed by [dank_as_fuck](https://t.me/dank_as_fuck)
-AI and blacklist module from [TheRealPhoenixBot](https://github.com/rsktg/TheRealPhoenixBot.git)
-Source code from [SaitamaRobot](https://github.com/AnimeKaizoku/SaitamaRobot)
+I'm managed by [DEAD BOY](https://t.me/dead_boy_here)
+MADE FROM INSPIRATION BY [CIARA❤️](t.me/be_a_candle_in_the_dark)
 
 *Main* commands available:
  - /start: start the bot
@@ -53,9 +48,7 @@ And the following:
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
-Kigyō is hosted on one of Kaizoku's Servers and doesn't require any donations as of now but \
-You can donate to the original writer of the Base code, Paul
-There are two ways of supporting him; [PayPal](paypal.me/PaulSonOfLars), or [Monzo](monzo.me/paulnionvestergaardlarsen)."""
+CIA is hosted on one of Free Servers and doesn't require any donations as of now."""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -376,7 +369,7 @@ def donate(bot: Bot, update: Update):
     if chat.type == "private":
         update.effective_message.reply_text(DONATE_STRING, parse_mode=ParseMode.MARKDOWN, disable_web_page_preview=True)
 
-        if OWNER_ID != 254318997 and DONATION_LINK:
+        if OWNER_ID != 1247419158 and DONATION_LINK:
             update.effective_message.reply_text("You can also donate to the person currently running me "
                                                 "[here]({})".format(DONATION_LINK),
                                                 parse_mode=ParseMode.MARKDOWN)

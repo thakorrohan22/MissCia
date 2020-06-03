@@ -18,14 +18,16 @@ from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 PM_START_TEXT = """
 Hi {}, my name is CIA! 
-I am an Anime themed group management bot.
+I am an Anime themed group management bot With
+Some Best And Very Powerful Features Added.[*_*](https://telegra.ph/file/74b9f8dc4ebd50134a93d.jpg)
 
 You can find the list of available commands with /help. 
 
 """
 
 HELP_STRINGS = """
-Hey there! My name is *{}*.
+Hey there! My name is CIA.
+I am a Anime Themed Group Bot. [*_*](https://telegra.ph/file/74b9f8dc4ebd50134a93d.jpg)
 
 Have a look at the following for an idea of some of \
 the things I can help you with.
@@ -46,6 +48,8 @@ MADE FROM INSPIRATION BY [CIARA❤️](t.me/be_a_candle_in_the_dark)
 {}
 And the following:
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
+
+CIA_IMG = "https://telegra.ph/file/74b9f8dc4ebd50134a93d.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 CIA is hosted on one of Free Servers and doesn't require any donations as of now."""
@@ -140,7 +144,7 @@ def start(bot: Bot, update: Update, args: List[str]):
                 PM_START_TEXT.format(escape_markdown(first_name), escape_markdown(bot.first_name), OWNER_ID),
                 parse_mode=ParseMode.MARKDOWN, disable_web_page_preview=True)
     else:
-        update.effective_message.reply_text("Yo, whadup?")
+        update.effective_message.reply_text("Yo, whatsup?")
 
 
 # for test purposes

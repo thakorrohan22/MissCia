@@ -36,7 +36,7 @@ Owner has complete bot access, including bot adminship in chats CIA is at.
 \n*Sakuras* - Have access go globally ban users across CIA.
 \n*Sardegnas* - Same as Neptunians but can unban themselves if banned.
 \n*Neptunians* - Cannot be banned, muted flood kicked but can be manually banned by admins.
-\n*Disclaimer*: The Nation levels in Kigyō are there for troubleshooting, support, banning potential scammers.
+\n*Disclaimer*: The Nation levels in CIA are there for troubleshooting, support, banning potential scammers.
 """
 # do not async, not a handler 
 def send_Nations(update):

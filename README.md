@@ -1,22 +1,18 @@
-![Enterprise](https://i.imgur.com/IYqzviU.jpg)
-# Kigyō bot
+![Enterprise](https://i.imgur.com/iy7QPAQ.jpg)
+# MISS CIA
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/04423a6d18ab43d396ab738fca5ba804)](https://www.codacy.com/manual/Dank-del/EnterpriseAL?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Dank-del/EnterpriseAL&amp;utm_campaign=Badge_Grade)
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Dank-del/EnterpriseAL)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Crackexy/MissCia)
 
 
 A modular telegram Python bot running on python3 with an sqlalchemy database.
-Concept taken from [Saitama Robot](https://github.com/AnimeKaizoku/SaitamaRobot)
 
-Originally a marie fork - Kigyō has evolved further and was built to be more useful for Anime Chats. 
+CIA has evolved further and was built to be more useful for Anime Chats. 
 
-Can be found on telegram as [Kigyōbot](https://t.me/kigyorobot).
-
-The Support group can be reached out to at [Eagle Union](https://t.me/YorktownEagleUnion), where you can ask for help setting up your bot, discover/request new features, report bugs, and stay in the loop whenever a new update is available. 
+Can be found on telegram as [CIABOT](https://t.me/MISS_CIABOT). 
 
  
-
 ## Setting up the bot (Read this before trying to use!):
 
 # How to setup
@@ -200,13 +196,3 @@ Turn on worker dyno (Don't worry It's free :D)
 Now send the bot /start , If it doesn't respond go to https://dashboard.heroku.com/apps/(app-name)/settings and remove webhook and port.  
 </details>  
 
-## Credits
-The bot is based of on the original work done by [PaulSonOfLars](https://github.com/PaulSonOfLars)
-This repo was just reamped to suit an Anime-centric community. All original credits go to Paul and his dedication, Without his efforts, this fork would not have been possible!
-
-Also, missing proper credit for blacklistusers taken from TheRealPhoenixBot (will add it later, this note says unless its done)
-
-Any other authorship/credits can be seen through the commits.
-
-
-Should any be missing kindly let us know at [Eagle Union](https://t.me/YorktownEagleUnion) or simply submit a pull request on the readme.

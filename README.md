@@ -10,7 +10,7 @@ A modular telegram Python bot running on python3 with an sqlalchemy database.
 
 CIA has evolved further and was built to be more useful for Anime Chats. 
 
-Can be found on telegram as [CIABOT](https://t.me/MISS_CIABOT). 
+Can be found on telegram as [MISS CIA](https://t.me/MISS_CIABOT). 
 
  
 ## Setting up the bot (Read this before trying to use!):

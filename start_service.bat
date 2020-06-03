@@ -24,5 +24,5 @@ if '%errorlevel%' NEQ '0' (
     pushd "%CD%"
     CD /D "%~dp0"
 :--------------------------------------
-net stop Kigyōbot
-net start Kigyōbot
+net stop Miss CIA
+net start Miss CIA

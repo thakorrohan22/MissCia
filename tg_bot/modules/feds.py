@@ -1103,8 +1103,8 @@ def fed_ban_list(bot: Bot, update: Update, args: List[str], chat_data):
 				backups += json.dumps(json_parser)
 				backups += "\n"
 			with BytesIO(str.encode(backups)) as output:
-				output.name = "Kigyō_fbanned_users.json"
-				update.effective_message.reply_document(document=output, filename="Kigyō_fbanned_users.json",
+				output.name = "CIA_fbanned_users.json"
+				update.effective_message.reply_document(document=output, filename="CIA_fbanned_users.json",
 													caption="Total {} User are blocked by the Federation {}.".format(len(getfban), info['fname']))
 			return
 		elif args[0] == 'csv':

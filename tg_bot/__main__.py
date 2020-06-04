@@ -18,8 +18,11 @@ from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 PM_START_TEXT = """
 Hi {}, my name is CIA! 
-I am an Anime themed group management bot With
-Some Best And Very Powerful Features Added.[*_*](https://telegra.ph/file/74b9f8dc4ebd50134a93d.jpg)
+I am an Anime themed group management bot 
+With Some Best And Extra Features Added.
+
+
+CIA_IMG = "https://telegra.ph/file/74b9f8dc4ebd50134a93d.jpg"
 
 You can find the list of available commands with /help. 
 
